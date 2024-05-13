@@ -1,0 +1,36 @@
+.test1 {
+  background-color: green;
+}
+
+.test2 {
+  border: 2px solid #000;
+}
+
+.title {
+  font-size: 29px;
+  color: blue;
+}
+
+.title-bg--red {
+  background-color: red;
+}
+
+[class^="title-"] {
+  font-style: italic;
+  font-weight: bold;
+  color: aqua;
+}
+
+[class*="titleA-"] {
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(242, 255, 0);
+}
+
+.titleB{
+  background-color: blueviolet;
+}
+
+.titleC{
+  background-color: rgb(239, 8, 89) !important;
+}

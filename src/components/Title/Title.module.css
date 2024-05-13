@@ -1,0 +1,18 @@
+.title {
+  font-size: 31px;
+  font-weight: bold;
+  color: red;
+  margin: 20px 0;
+}
+
+.titleSize7 {
+  background-color: green;
+  width: 117px;
+  margin: 17px auto;
+}
+
+.titleMode {
+  font-size: 90px;
+  font-weight: bold;
+  color: chartreuse;
+}
