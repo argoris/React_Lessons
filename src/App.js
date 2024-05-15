@@ -1,26 +1,47 @@
 import "./App.css";
-import Title from "./components/Title/Title";
-import Title1 from "./components/Titles";
-import Wrapper from "./components/Wrapper";
-import Button from "./components/Button";
-import SupperButton from "./components/SupperButton";
-import Name from "./components/Name";
-import StyledName from "./components/StyledName";
+import Menu from "./components/Menu/Menu";
+import Header from "./components/Header/Header";
+import ProductCard from "./components/ProductCard/ProductCard";
+import TitleProductCard from "./components/TitleProductCard/TitleProductCard";
+import dessertImage from "./assets/dessert.png";
+import drinkImage from "./assets/drink.png";
+import mainImage from "./assets/main_dish.png";
+import sideImage from "./assets/side_dish.png";
+
+const productCard = [
+  {
+    photo: dessertImage,
+    title: "Dessert",
+    description: "there is so many dessert recipes",
+  },
+  {
+    photo: drinkImage,
+    title: "Drinks",
+    description: "there is so many drinks recipes",
+  },
+  {
+    photo: mainImage,
+    title: "Main Dishs",
+    description: "there is so many main dishes recipes",
+  },
+  {
+    photo: sideImage,
+    title: "Side Dishs",
+    description: "there is so many side dishes recipes",
+  },
+];
 
 function App() {
   return (
     <div className="App">
-      <Title />
-      <Wrapper>
-        <Title1>
-          lorem import Title from "./components/Title/Title"; import Title1 from
-          "./components/Titles"; import Wrapper from "./components/Wrapper";
-        </Title1>
-      </Wrapper>
-      <Button primary={true}>Click me please</Button>
-      <Button>Click me please</Button>
-      <SupperButton primary>I am a supper Button</SupperButton>
-      <StyledName>lorem Lorem Lorem</StyledName>
+      <Menu menuItems={["Home", "List", "Search"]} />
+      <Header />
+      <TitleProductCard />
+      <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
+        {productCard.map((value) => (
+          <ProductCard key={value.title} obj={value} />
+        ))}
+      </div>
     </div>
   );
 }

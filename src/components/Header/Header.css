@@ -1,0 +1,31 @@
+.header-block {
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #f4f46b;
+  padding: 107px 0;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+}
+
+.header-description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  max-width: 492px;
+  padding: 17px 0;
+}
+
+@media (max-width: 727px) {
+  .header-img {
+    width: 100%;
+  }
+}
