@@ -13,21 +13,25 @@ const productCard = [
     photo: dessertImage,
     title: "Dessert",
     description: "there is so many dessert recipes",
+    link: "https://github.com/",
   },
   {
     photo: drinkImage,
     title: "Drinks",
     description: "there is so many drinks recipes",
+    link: "http://www.instagram.com/",
   },
   {
     photo: mainImage,
     title: "Main Dishs",
     description: "there is so many main dishes recipes",
+    link: "http://www.facebook.com/",
   },
   {
     photo: sideImage,
     title: "Side Dishs",
     description: "there is so many side dishes recipes",
+    link: "http://www.twitter.com/",
   },
 ];
 

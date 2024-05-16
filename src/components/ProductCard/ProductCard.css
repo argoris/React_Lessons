@@ -17,9 +17,15 @@
   width: calc(25% - 24px);
   margin: 0 10px 77px;
 }
+
+.product-card--link {
+  text-decoration: none;
+}
+
 .img-product--card {
   width: 100%;
 }
+
 .title-pc {
   font-weight: 600;
   font-size: 24px;
