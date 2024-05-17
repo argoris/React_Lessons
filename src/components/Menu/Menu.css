@@ -1,48 +1,20 @@
-a {
-  color: #000000;
-}
-
-.containers {
-  position: relative;
-  padding: 0 20px;
-}
-
-#navbar {
-  font-family: "Quando", sans-serif;
-  position: fixed;
-  background-color: #fff;
-  width: 100%;
-  left: 0;
-  z-index: 10;
-
+.menu {
+  width: 200px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-
-  padding: 17px 0;
-}
-
-.logo-link {
-  font-size: 37px;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-.nav-menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
-.nav-menu--item {
-  padding: 0 20px;
+.menu-item {
+  font-family: "Quando", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  color: #000;
+  text-decoration: none;
 }
 
-.nav-link--item {
-  font-weight: 400;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
+.menu-item:hover {
+  color: #f8a607;
 }

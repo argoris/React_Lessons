@@ -1,0 +1,39 @@
+.recipe-card {
+  width: 347px;
+  height: 367px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
+  border: 2px solid #ccc;
+  padding-bottom: 27px;
+  margin: 7px;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px) scale(1.007) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 44px #f8a607;
+}
+
+.recipe-card--img {
+  width: 100%;
+}
+
+.recipe-card--name {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+}
+
+.recipe-card--description {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 0.55);
+}

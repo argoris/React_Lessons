@@ -1,0 +1,22 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcffd8;
+  height: 30vw;
+  padding: 0 10%;
+}
+
+.banner-img {
+  width: 40%;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  width: 35%;
+  height: 35%;
+}

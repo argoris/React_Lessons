@@ -1,14 +1,12 @@
-import React from "react";
-import "./Button.css";
+import React from 'react'
+import './Button.css'
 
-const Button = () => {
+const Button = ({children}) => {
   return (
-    <div>
-      <a href="Button" className={'header-button'}>
-       See Recipes
-      </a>
-    </div>
-  );
-};
+    <button className={'button'}>
+      {children}
+    </button>
+  )
+}
 
 export default Button;

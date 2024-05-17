@@ -1,16 +1,20 @@
-.header-button {
+.button {
   font-size: 24px;
   display: inline-block;
   border-radius: 7px;
   color: #fff;
   background-color: #f8a607;
   text-decoration: none;
+  cursor: pointer;
+  border: none;
   padding: 17px 15px;
 }
 
-.header-button:hover {
-  color: #000;
-  background-color: #bcf807;
+.button:hover {
+  color: #f8a607;
+  background-color: #fff;
+  border: 2px solid #f8a607;
+  cursor: pointer;
 
-  transition: all 1s ease-in-out, color .7s ease-in-out;
+  transition: all 1s ease-in-out, color 0.7s ease-in-out;
 }
