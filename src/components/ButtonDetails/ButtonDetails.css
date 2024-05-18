@@ -1,0 +1,24 @@
+.details-button {
+  font-family: Quando;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+
+  color: #fff;
+  background: #ff393999;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  width: 179px;
+  cursor: pointer;
+  
+  padding: 12px 0;
+  margin-left: auto;
+}
+
+.details-button:hover {
+  color: #ff393999;
+  background: #fff;
+  border: 2px solid #ff393999;
+}
